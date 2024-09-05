@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/logo.avif">
+    <title>VitaPlusPh</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .sticky-nav {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 50; 
+        }
+        .bg-home {
+            background-image: url(''); 
+            background-size: cover;
+            background-position: center;
+            background-color: yellowgreen;
+        }
+        .navbar-logo {
+            max-height: 60px; 
+        }
+    </style>
+</head>
+<body class="bg-white-100 text-gray-900">
+
+    <nav class="bg-white text-black py-4 h-15 sticky-nav bg-opacity-70">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#home-1" class="flex items-center space-x-4"> 
+                <img src="img/logo.avif" alt="Logo" class="navbar-logo h-13"> 
+                <span class=" font-semibold">VITAPLUS</span> 
+            </a>
+            <ul class="flex space-x-4">
+                <li><a id="home" href="#home-1" class="hover:text-gray-300 text-xl">Home</a></li>
+                <li><a id="gallery" href="#gallery-1" class="hover:text-gray-300 text-xl">Products</a></li>
+                <li><a id="services" href="#services-1" class="hover:text-gray-300 text-xl">Contact Us</a></li>
+                <li><a id="about" href="#about-1" class="hover:text-gray-300 text-xl">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div id="home-1" class="pt-16 py-16 px-4 md:px-8 bg-home bg-opacity-70 h-screen flex items-center justify-center">
+       <div class="w-full ml-10 text-center mt-30">
+    <h1 class="text-8xl font-bold mt-55 text-black">First</h1>
+    <h1 class="text-9xl font-bold mt-55 mb-8 text-black">VitaPlus Ph</h1>
+    <h1 class="text-9xl font-bold mb-5 mt-55 text-black">So Full of Life</h1>
+
+   
+        </div>
+    </div>
+    <div id="gallery-1" class="pt-20 py-12 px-8 md:px-8 bg-white-200">
+        <div class="container mx-auto">
+            <h1 class="text-3xl font-semibold mb-8 text-center">Our Products</h1>
+            <div class="grid grid-cols-3 gap-4">
+                <div>
+                    <img src="img/gallery1.jfif" alt="Gallery Image" class="w-full h-64 rounded shadow-md object-cover">
+                    <p class="text-center mt-2 text-gray-700 font-semibold">First ReVITAlized Plus Forte Dalandan Drink Mix Booster Pack</p>
+                </div>
+                <div>
+                    <img src="img/gallery2.jpg" alt="Gallery Image" class="w-full h-64 rounded shadow-md object-cover">
+                    <p class="text-center mt-2 text-gray-700 font-semibold">First Vita Plus Natural Health Drink ™ Dalandan Gold Booster Pack</p>
+                </div>
+                <div>
+                    <img src="img/gallery3.png" alt="Gallery Image" class="w-full h-64 rounded shadow-md object-cover">
+                    <p class="text-center mt-2 text-gray-700 font-semibold">34-In-1 Ordinary Coffee Drink Mix With Fruits and Vegetables Booster Pack </p>
+                </div>
+                <div>
+                    <img src="img/gallery4.jpg" alt="Gallery Image" class="w-full h-64 rounded shadow-md object-cover">
+                    <p class="text-center mt-2 text-gray-700 font-semibold">8 Senses Adult Coffee Drink Mix Booster Pack</p>
+                </div>
+                <div>
+                    <img src="img/gallery5.jpg" alt="Gallery Image" class="w-full h-64 rounded shadow-md object-cover">
+                    <p class="text-center mt-2 text-gray-700 font-semibold">Coffee 1 for 5</p>
+                </div>
+                <div>
+                    <img src="img/gallery6.jpg" alt="Gallery Image" class="w-full h-64 rounded shadow-md object-cover">
+                    <p class="text-center mt-2 text-gray-700 font-semibold">Kidneypro Food Supplement Capsules Booster Pack</p>
+                </div>
+                <div>
+                    <img src="img/gallery7.jpg" alt="Gallery Image" class="w-full h-64 rounded shadow-md object-cover">
+                    <p class="text-center mt-2 text-gray-700 font-semibold">Vitaheart Food Supplement Capsules Booster Pack</p>
+                </div>
+                <div>
+                    <img src="img/gallery8.jpg" alt="Gallery Image" class="w-full h-64 rounded shadow-md object-cover">
+                    <p class="text-center mt-2 text-gray-700 font-semibold">First Vita Revitalized Platinum Guyabano Booster Pack</p>
+                </div>
+                <div>
+                    <img src="img/gallery9.jpg" alt="Gallery Image" class="w-full h-64 rounded shadow-md object-cover">
+                    <p class="text-center mt-2 text-gray-700 font-semibold">First Vita Revitalized Titanium Booster Pack</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services-1" class="pt-20 py-8 px-4 md:px-8 bg-white">
+        <div class="container mx-auto text-center">
+            <h1 class="text-3xl font-semibold mb-4 ">Contact Us</h1>
+            <h2 class="text-xl mb-4">Look for the nearest FVP Product Center in your area.
+            </h2>
+            
+            <div class="flex justify-center items-center flex-col">
+                <img src="img/services1.jpg" alt="Service Image" class="w-200 h-100 rounded shadow-md">
+
+            </div>
+   <div id="about-1" class="pt-16 py-8 px-4 md:px-8 bg-white-200">
+    <div class="container mx-auto flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 text-left">
+            <h1 class="text-3xl font-semibold mb-4">Know About VITAPLUS</h1>
+            <p class="text-gray-700 mb-4">
+                First Vita Plus Dalandan Health Drink is packed with premium quality Moringa, Corchorus, Capsicum, Amaranthus and Ipomoea leaves. It gives you the xtra energy boost, which is why it is highly loved by many.
+            <p class="text-gray-700 mb-4">
+                First Vita Plus Dalandan Health Drink is definitely the perfect choice to boost your immunity and get you that much needed energy to get you throughout the day.
+        </div>
+        <div class="md:w-1/2">
+            <img src="img/logo.avif" alt="About Image" class="mx-auto ">
+        </div>
+    </div>
+</div>
+
+
+    <footer class="bg-gray-600 text-white py-4 text-center h-15">
+        <p>All Rights Reserved @2024</p>
+    </footer>            
+
+
+
+        </div>
+    </div>
+    
+    
+    
+
+</body>
+</html>
